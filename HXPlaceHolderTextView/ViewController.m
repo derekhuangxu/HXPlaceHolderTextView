@@ -11,7 +11,7 @@
 
 @interface ViewController ()
 
-@property (nonatomic,assign)HXPlaceHolderTextView * tv;
+@property (nonatomic,retain)HXPlaceHolderTextView* tv;
 @end
 
 @implementation ViewController
@@ -19,7 +19,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-  
+    _tv = [[HXPlaceHolderTextView alloc]init];
+    _tv.frame = CGRectMake(50, 50, 270, 100);
+    _tv.placeholder = @"我是占位符";
+//    _tv.font = [UIFont systemFontOfSize:13];
+    [self.view addSubview:_tv];
+    self.view.backgroundColor = [UIColor grayColor];
+    
 }
 
 - (void)didReceiveMemoryWarning {

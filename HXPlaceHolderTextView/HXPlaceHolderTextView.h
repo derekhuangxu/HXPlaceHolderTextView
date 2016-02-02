@@ -12,6 +12,4 @@
 
 @property (nonatomic, assign) NSString * placeholder;//占位符文字
 
-@property (nonatomic, assign) CGFloat placeholderFont;
-
 @end

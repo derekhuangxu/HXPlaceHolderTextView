@@ -16,7 +16,6 @@
 		6558A7711C5C90AC00ACDF54 /* HXPlaceHolderTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6558A7701C5C90AC00ACDF54 /* HXPlaceHolderTextViewTests.m */; };
 		6558A77C1C5C90AC00ACDF54 /* HXPlaceHolderTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6558A77B1C5C90AC00ACDF54 /* HXPlaceHolderTextViewUITests.m */; };
 		6558A78B1C5C90DB00ACDF54 /* HXPlaceHolderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6558A78A1C5C90DB00ACDF54 /* HXPlaceHolderTextView.m */; };
-		65C43DB31C5CF1AE00B2E9EF /* MPTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C43DB21C5CF1AE00B2E9EF /* MPTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +54,6 @@
 		6558A77D1C5C90AC00ACDF54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6558A7891C5C90DB00ACDF54 /* HXPlaceHolderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPlaceHolderTextView.h; sourceTree = "<group>"; };
 		6558A78A1C5C90DB00ACDF54 /* HXPlaceHolderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPlaceHolderTextView.m; sourceTree = "<group>"; };
-		65C43DB11C5CF1AE00B2E9EF /* MPTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTextView.h; sourceTree = "<group>"; };
-		65C43DB21C5CF1AE00B2E9EF /* MPTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +104,6 @@
 		6558A7551C5C90AB00ACDF54 /* HXPlaceHolderTextView */ = {
 			isa = PBXGroup;
 			children = (
-				65C43DB11C5CF1AE00B2E9EF /* MPTextView.h */,
-				65C43DB21C5CF1AE00B2E9EF /* MPTextView.m */,
 				6558A7591C5C90AB00ACDF54 /* AppDelegate.h */,
 				6558A75A1C5C90AB00ACDF54 /* AppDelegate.m */,
 				6558A75C1C5C90AB00ACDF54 /* ViewController.h */,
@@ -281,7 +276,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6558A75E1C5C90AB00ACDF54 /* ViewController.m in Sources */,
-				65C43DB31C5CF1AE00B2E9EF /* MPTextView.m in Sources */,
 				6558A78B1C5C90DB00ACDF54 /* HXPlaceHolderTextView.m in Sources */,
 				6558A75B1C5C90AB00ACDF54 /* AppDelegate.m in Sources */,
 				6558A7581C5C90AB00ACDF54 /* main.m in Sources */,

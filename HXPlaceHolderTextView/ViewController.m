@@ -19,11 +19,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    _tv = [[HXPlaceHolderTextView alloc]init];
-    _tv.frame = CGRectMake(50, 50, 270, 100);
-    _tv.placeholder = @"我是占位符";
-//    _tv.font = [UIFont systemFontOfSize:13];
-    [self.view addSubview:_tv];
+    HXPlaceHolderTextView* textView = [[HXPlaceHolderTextView alloc]init];
+    textView.frame = CGRectMake(50, 50, 270, 100);
+    textView.placeholder = @"我是placeholder";
+    textView.font = [UIFont systemFontOfSize:13];
+    [self.view addSubview:textView];
+    
+    
     self.view.backgroundColor = [UIColor grayColor];
     
 }
